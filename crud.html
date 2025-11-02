@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Jamaah - CRUD</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: "Poppins", sans-serif; }
+    body {
+      background-color: #f9fafb;
+      display: flex; justify-content: center; align-items: center;
+      height: 100vh;
+    }
+    .container {
+      width: 90%; max-width: 400px; background: #fff;
+      padding: 25px; border: 4px solid #0c244a;
+      border-radius: 25px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    h1 { color: #0c244a; text-align: center; margin-bottom: 15px; }
+    input {
+      width: 100%; padding: 12px; margin-bottom: 10px;
+      border: 1px solid #ccc; border-radius: 10px;
+    }
+    button {
+      width: 100%; background-color: #0c244a;
+      color: white; border: none; border-radius: 10px;
+      padding: 12px; margin-top: 5px; cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Data Jamaah</h1>
+    <form>
+      <input type="text" placeholder="Nama Jamaah" required>
+      <input type="text" placeholder="Paket Umroh" required>
+      <input type="text" placeholder="Status Pembayaran" required>
+      <button type="submit">Simpan</button>
+      <button type="button">Edit</button>
+      <button type="button" style="background:red;">Hapus</button>
+    </form>
+  </div>
+</body>
+</html>
